@@ -1,0 +1,29 @@
+
+Prais-Winsten Model Results
+===============================================
+                        Dependent variable:    
+                    ---------------------------
+                         log_VolumeEkspor      
+-----------------------------------------------
+log_HargaMinyak_lag          -3.059***         
+                              (1.144)          
+                                               
+log_HargaEmas_lag              2.174           
+                              (2.168)          
+                                               
+log_GDP_lag                    3.729           
+                              (3.967)          
+                                               
+log_NilaiTukar_lag             1.058           
+                              (1.338)          
+                                               
+log_Inflasi_lag                0.587           
+                              (0.593)          
+                                               
+-----------------------------------------------
+Observations                    90             
+R2                             0.122           
+Adjusted R2                   -0.042           
+F Statistic             2.085* (df = 5; 75)    
+===============================================
+Note:               *p<0.1; **p<0.05; ***p<0.01

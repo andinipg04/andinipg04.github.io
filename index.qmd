@@ -1,122 +1,294 @@
 ---
-title: "Melihat hubungan ekspor dan nilai tukar"
+title: "Determinasi Ekspor Emas Indonesia: Peran Harga Minyak Dunia dan Faktor Ekonomi Global"
 subtitle: "Metode Penelitian Politeknik APP Jakarta"
-author: "I Made Krisna"
-date: 2022-08-10
+author: "Andini Putri Gunawan"
+date: 2024-01-03
 number-sections: true
 format:
   html: default
-  docx: default
 ---
 
-This **just** a ~~showcase~~ of what *Quarto* docs can produce. I use this part for my students.
+<img src="Logo_Politeknik_APP.png" alt="Logo" width="45%" style="display: block; margin: auto;">
+
 
 ## Pendahuluan
 
 ### Latar belakang
 
-Latar belakang berisi tentang pentingnya topik yang diangkat dalam laporan. Uraikan alasan mengapa penulis tertarik menentukan topik yang dijadikan pembahasan, dapat menggunakan metode identifikasi masalah (fishbone diagram, root cause problem solving, dll). Kemukakan hal--hal yang mendorong atau argumentasi pentingnya penyelesaian permasalahan tersebut, termasuk jika ada hasil penelitian terkait yang telah dilakukan terdahulu.
+Kebutuhan energi dunia terus mengalami peningkatan. Menurut proyeksi Badan Energi Dunia (*International Energy Agency*-IEA), hingga tahun 2030 permintaan energi dunia meningkat sebesar 45% atau rata-rata mengalami peningkatan sebesar 1,6% per tahun. Minyak bumi-petroleoum-bahan bakar fosil yang merupakan bahan baku untuk bahan bakar minyak, bensin dan banyak produk-produk kimia-merupakan sumber energi yang penting karena minyak memiliki persentase yang signifikan dalam memenuhi konsumsi energi dunia (Indonesia Investments 2024). Minyak menjadi salah satu sumber konsumsi energi utama di dunia sehingga tidak dapat dipungkiri minyak memiliki peran penting dalam menggerakkan perekonomian secara global (Safitri, Anwar, and Abbas 2022). Perannya yang sangat krusial, menjadikan perubahan harga komoditas tersebut berpengaruh pada perubahan sektor lainnya. Fluktuasi harga minyak selalu dianggap sebagai barometer ekonomi di seluruh dunia, sehingga setiap perubahan harga minyak selalu menjadi isu panas untuk dibahas dalam lingkaran politik dan ekonomi di setiap negara (Arifin 2018). Tidak ada satu negara pun yang mampu menghilangkan ketergantungannya pada minyak dunia, tak terkecuali Indonesia.
+
+Fluktuasi harga minyak mentah di pasar internasional pada prinsipnya mengikuti aksioma yang berlaku umum dalam ekonomi pasar, dimana tingkat harga yang berlaku sangat ditentukan oleh mekanisme permintaan dan penawaran. beberapa studi mengatakan bahwa perubahan harga minyak juga mempengaruhi komoditas emas yang sering dijadikan lindung nilai di tengah ketidakpastian ekonomi global. Emas merupakan *save heaven*, dimana dapat sangat berguna untuk melindungi nilai kekayaan saat tingkat inflasi sedang merajalela. Naik turunnya harga minyak dunia sangat mempengaruhi tingkat inflasi maka dari itu banyak investor berpikir bahwa harga emas merupakan cerminan dari reaksi investor saat tingkat inflasi membandel (Putro 2021).
+
+Dengan produksi 110 metrik ton emas pada tahun 2023, Indonesia berada di peringkat ke-delapan dunia dan di peringkat ke-enam negara dengan cadangan emas terbesar. Anehnya, ketika pandemi Covid-19 menyerang dunia pada tahun 2019-2020 dimana banyak dari volume ekspor komoditas dunia menurun drastis, komoditas emas justru menjadi pusat perhatian banyak negara Dengan total value USD 3,5 - 6,7 juta, hal ini berkebalikan dengan statistik ekspor volume komoditas lainnya.Baik harga minyak dunia maupun harga emas, keduanya memiliki keterkaitan dengan inflasi suatu negara. Dalam skenario terburuk, lonjakan harga minyak yang terjadi secara terus menerus akan menghambat pertumbuhan ekonomi banyak negara.Indonesia sebagai eksportir emas, sudah sepatutnya memahami dinamika harga minyak ini agar dapat memprediksi volume ekspor komoditi emas di kemudian hari.
 
 ### Ruang lingkup
 
-Bagian ini menguraikan batasan ruang lingkup bahasan permasalahan pada laporan, dapat berupa batasan waktu maupun topik yang dibahas. Biasanya pertanyaan dan batasan penelitian ada di sini.
+Subjek utama dalam penelitian ini adalah ekspor emas Indonesia ke sepuluh (10) negara selama rentang waktu 10 tahun (2014-2023).Periode ini dipilih karena untuk melihat fluktuasi harga yang cukup signifikan tepatnya ketika pandemi Covid-19. Metode regresi adalah metode analisis kuantitatif yang digunakan untuk memahami hubungan antara variabel independen dan variabel dependen. Dalam kasus ini, teknik analisis yang digunakan adalah regresi linear berganda, dimana terdapat lebih dari 1 variabel independen dan 1 variabel dependen. Data panel adalah gabungan antara data *cross section* dengan data runtun waktu (*time series*). *Cross Section* adalah data yang didapat dengan mengamati banyak faktor di waktu yang sama. Sedangkan data runtun waktu adalah data yang didapatkan dengan mengamati satu objek dari periode waktu tertentu. Regresi data panel adalah regresi yang digunakan pada data panel. Penelitian kali ini akan menggunakan data panel sebagai subjek utama dimana volume ekspor emas Indonesia berperan sebagai variabel dependen (Y), lalu harga minyak dunia (USD per barrel); harga emas global (USD per ounce); nilai tukar; GDP per kapita; serta Tingkat inflasi menjadi variabel independen (X).
 
 ### Rumusan masalah
 
-Bagian ini menuliskan poin-poin permasalahan apa saja yang akan dibahas dalam laporan. Dapat juga merumuskan hipotesis penelitian.
+1.  Apakah kenaikan harga minyak dunia berpengaruh signifikan bagi besarnya volume ekspor emas Indonesia?
+2.  Seberapa besar kontribusi harga minyak dunia dalam menjelaskan fluktuasi ekspor emas dibandingkan faktor lain (harga emas global dan nilai tukar)?
+3.  Apakah perubahan harga minyak dunia memiliki pengaruh langsung atau tidak langsung terhadap ekspor emas Indonesia?
+4.  Bagaimana pengaruh faktor ekonomi global lainnya?
 
 ### Tujuan dan manfaat penelitian
 
-Bagian ini merupakan jawaban yang akan dicapai dari pembahasan laporan, biasanya dirumuskan dari poin-poin masalah yang telah dijabarkan sebelumnya. Identifikasi siapa saja stakeholders yang dapat memanfaatkan penelitian ini.
+Penelitian ini bertujuan untuk mengetahui apakah kenaikan atau penurunan harga minyak dunia berpengaruh signifikan pada besar kecilnya volume ekspor emas Indonesia ke sepuluh negara tujuan. Jika ternyata hasilnya positif, apakah kontribusi harga minyak dunia lebih besar dalam menjelaskan fluktuasi ekspor emas dibandingkan dengan faktor lain. Dalam beberapa sumber menyatakan bahwa harga minyak dunia memiliki pengaruh langsung, dan sumber lain menyatakan tidak langsung. Penelitian ini juga bertujuan untuk memahami secara jelas jalur pengaruh tersebut.
+
+Manfaat penelitian ini tentu saja sedikitnya akan memberikan pengetahuan bagi pembaca dalam memahami dampak fluktuasi harga minyak terhadap ekspor emas, dimana Indonesia dapat menjaga stabilitas sektor ekspor untuk memperkuat perekonomian nasional. Selain itu, ekspor emas juga dapat dioptimalkan di tengah kenaikan harga minyak dunia sehingga dapat meningkatkan devisa negara dan kontribusi sektor pertambangan.
 
 ### Package
 
-Ini tidak wajib ada di tulisan anda tapi anda dapat menunjukkan Packages yang digunakan antara lain sebagai berikut:
+package yang digunakan antara lain, sebagai berikut :
 
 ```{r}
 #| warning: false
 #| echo: true
-library(tidyverse)
-library(readxl)
-library(WDI) # tambahkan library lain jika diperlukan
+library('tidyverse')
+library('readxl')
+library('knitr')
+library('kableExtra') 
+library('plm')
+library('lmtest')
+library('broom')
+library('moments')
+library('pcse')
+library('stargazer')
+library('performance')
+library('prais')
+library('car')
 ```
 
 ## Studi pustaka
 
-Salah satu bagian yang penting dalam penelitian adalah melakukan studi literatur, yaitu membaca dari berbagai sumber sesuai dengan topik yang diteliti untuk menghasilkan ide/analisis baru yang dipresentasikan dalam sebuah karya ilmiah.
+**Fluktuasi Harga Minyak Dunia**
 
-Bab ini menguraikan dasar-dasar teori dan istilah yang berhubungan dengan permasalahan yang ditemui atau yang mendasari pemilihan topik laporan. Studi Pustaka dilengkapi dengan sumber referensi yang dipakai dan bukan berdasarkan asumsi penulis.
+Fluktuasi harga minyak dunia menjadi salah satu faktor yang mempengaruhi perekonomian di banyak negara, khususnya Indonesia karena memiliki peranan yang sangat penting dalam perekonomian dan memiliki implikasi atau dampak yang beragam (Safitri et al. 2022). Harga minyak dunia merupakan sejumlah nilai moneter yang ditetapkan untuk mendapatkan 1 barel minyak dalam dollar Amerika Serikat. Terdapat tiga jenis minyak yang paling sering diperdagangkan di dunia, yaitu: minyak *West Texas Intermediete* (WTI) untuk daerah Amerika Serikat, minyak *Brent* untuk daerah Eropa, minyak Dubai untuk kawasan Timur Tengah. Penentuan harga minyak dilihat dari besarnya derajat API (American Petroleum Institute) dan kadar belerangnya. Harga minyak dunia yang sering digunakan sebagai acuan dalam perdagangan internasional adalah *West Texas Intermediete* (WTI). Harga minyak WTI merupakan harga minyak tertinggi diantara *Brent Blend* dan OPEC (Candra Gumilang and Rustam Hidayat 2014). Kebutuhan energi dunia saat ini masih bergantung pada bahan bakar fosil terutama minyak bumi, hal ini menyebabkan harga bahan bakar minyak menjadi sangat penting dalam sektor perdagangan, mengingat persebaran cadangan minyak yang tidak merata di dunia.
 
-## Metode penelitian
+**Emas**
+
+Emas merupakan salah satu komoditas dunia yang pernah digunakan sebagai alat tukar atau alat pembayaran. Standar emas yang sering dijadikan patokan di seluruh dunia adalah harga standar emas pasar London atau yang biasa disebut dengan *London Gold Fixing*. Menurut beberapa analis, hubungan antara harga emas dan harga minyak mentah memang ada hubungannya. Ketika harga minyak mentah dunia naik maka akan berimpas pada meningkatnya inflasi di suatu negara karena tentu saja biaya produksi akan meningkat, pada saat itu banyak investor akan beralih ke perdagangan emas karena harus melindungi kekayaannya. Hal inilah yang menjadi dasar penelitian ini. \## Metode penelitian
+
+## Metode Penelitian
 
 ### Data
 
-| negara   | ekspor    |
-|----------|-----------|
-| cina     | 20.000USD |
-| thailand | 21.000USD |
-| vietnam  | 10.000USD |
+```{r echo=FALSE}
+data <- read_excel("Data Akumulasi.xlsx", sheet = "Harga Minyak Dunia (WTI)", col_names = TRUE)
 
-: lalala ekspor asal-asalan
+# Buat tabel dengan caption dan styling
+kable_output <- kbl(data, caption = "Tabel. 1 Harga Minyak Dunia (2014-2023) US$") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 
-| Col1 | Col2 | Col3 |
-|------|------|------|
-|      |      |      |
-|      |      |      |
-|      |      |      |
-
-: wleowleo wleo
-
-![logo APP muncul secara random lalalala](poltekapp.jpg)
-
-penelitian ini menggunakan data xxx
-
-```{r}
-#| label: fig-mpg
-#| fig-cap: "City and highway mileage for 38 popular models of cars.Color by number of cylinders"
-ggplot(mpg, aes(x = hwy, y = cty, color = cyl)) +
-  geom_point(alpha = 0.5, size = 2) +
-  scale_color_viridis_c() +
-  theme_minimal()
+# Menampilkan tabel
+kable_output
 ```
+
+Tabel diatas merupakan tabel harga minyak dunia yang diambil dari sumber investing.id lalu diolah kembali dalam Microsoft Excel.
+
+
+```{r echo=FALSE}
+data <- read_excel("Data Akumulasi.xlsx", sheet = "Harga Emas Global (WGC)", col_names = TRUE)
+
+# Buat tabel dengan caption dan styling
+kable_output <- kbl(data, caption = "Tabel. 2 Harga Emas Global (2014-2023) US$") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+# Menampilkan tabel
+kable_output
+```
+Tabel diatas merupakan tabel harga emas global yang diambil dari sumber World Gold Council lalu diolah kembali dalam Microsoft Excel.
+
+```{r echo=FALSE}
+data <- read_excel("Data Akumulasi.xlsx", sheet = "GDP per Kapita", col_names = TRUE)
+
+# Buat tabel dengan caption dan styling
+kable_output <- kbl(data, caption = "Tabel. 3 GDP per Kapita (2014-2023) US$") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+# Menampilkan tabel
+kable_output
+```
+
+Tabel diatas merupakan tabel nilai GDP dari masing-masing negara tujuan utama ekspor emas Indonesia. Data tersebut diambil dari sumber World Bank.
+
+```{r echo=FALSE}
+data <- read_excel("Data Akumulasi.xlsx", sheet = "Inflasi", col_names = TRUE)
+
+# Buat tabel dengan caption dan styling
+kable_output <- kbl(data, caption = "Tabel. 4 Tingkat Inflasi") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+# Menampilkan tabel
+kable_output
+```
+
+Tabel diatas merupakan tabel tingkat inflasi dari masing-masing negara tujuan utama ekspor emas Indonesia. Data tersebut diambil dari sumber World Bank.
+
+```{r echo=FALSE}
+# Membaca data dari sheet "Nilai Tukar"
+Data_Akumulasi <- read_excel("Data Akumulasi.xlsx", sheet = "Nilai Tukar", col_names = TRUE)
+
+# Menghapus tiga angka di belakang koma untuk seluruh kolom numerik
+Data_Akumulasi[] <- lapply(Data_Akumulasi, function(x) {
+  if(is.numeric(x)) round(x, 0) else x
+})
+
+# Buat tabel dengan caption dan styling
+kable_output <- kbl(Data_Akumulasi, caption = "Tabel. 5 Nilai Tukar dalam Rupiah") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+# Menampilkan tabel
+kable_output
+
+```
+
+Tabel diatas merupakan tabel nilai tukar mata uang dari masing-masing negara dalam Rupiah. Data tersebut diambil dari sumber Bank Indonesia.
 
 ### Metode analisis
 
-Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 1 variabel independen. Penelitian ini merbaksud mencari hubungan antara hwy dan cty. Spesifikasi yang dilakukan adalah:
+Penelitian ini menggunakan metode regresi linear berganda (regresi multivariat) dengan lima variabel independen untuk menganalisis pengaruh harga minyak dunia, harga emas dunia, GDP per kapita, tingkat inflasi, dan nilai tukar terhadap volume ekspor emas Indonesia. Sampel yang digunakan mencakup sepuluh negara tujuan ekspor dalam periode 2014 hingga 2023. Penelitian ini juga menggunakan data panel yang terdiri dari informasi tahun dan negara, yang kemudian ditransformasi ke dalam bentuk logaritma. Penggunaan transformasi logaritma bertujuan untuk mengurangi masalah perbedaan skala antar data dan membuat hubungan antar variabel lebih mudah dianalisis. Transformasi ini juga membantu untuk mengurangi pengaruh nilai ekstrim (outlier) yang dapat mengganggu hasil analisis. Dengan menggunakan data panel, penelitian ini dapat menganalisis perubahan variabel dari waktu ke waktu di berbagai negara, yang memungkinkan untuk melihat pola dan dinamika hubungan antar variabel lebih jelas. Selain itu, logaritma memungkinkan hubungan antar variabel untuk dianalisis dalam bentuk perubahan relatif, yang memberikan gambaran yang lebih akurat mengenai keterkaitan antar variabel yang sedang diuji. Spesifikasi yang dilakukan adalah:
 
 $$
-y_{t}=\beta_0 + \beta_1 x_t+\mu_t
-$$ di mana $y_t$ adalah hwy dan $x_t$ adalah cty.
+log(y)=\beta_0 + \beta_1. log(HargaMinyak)+ \beta_2. log(HargaEmas)+ \beta_3. log(GDPperkapita)+ \beta_4. log(Inflasi)+ \beta_5. log(NilaiTukar)+ \epsilon
+$$ 
 
+Dimana:
+
+- **log(y)**: Volume Ekspor Emas Indonesia yang tertransformasi logaritma
+- **beta 0**: konstanta/intercept dalam model
+- **log(beta 1-5)**: koefisien yang akan diuji untuk melihat pengaruh masing-masing variabel independen terhadap volume ekspor emas 
+- **e**: Kesahalahan (residual) pada observasi
+  
 ## Pembahasan
 
 ### Pembahasan masalah
 
-Pada bagian ini dapat ditampilkan data dan visualisasi data yang telah dikumpulkan.
+Seluruh data dari beberapa sumber disatukan dalam satu tabel agar memudahkan pembacaan. 
+```{r echo=FALSE}
+# Membaca data dari sheet "Nilai Tukar"
+Data_Akumulasi <- read_excel("Data Akumulasi.xlsx", sheet = "Akumulasi", col_names = TRUE)
+
+# Menghapus tiga angka terakhir setelah koma pada kolom Nilai Tukar
+Data_Akumulasi$`Nilai Tukar` <- round(Data_Akumulasi$`Nilai Tukar`, 0)
+
+# Buat tabel dengan caption dan styling
+kable_output <- kbl(Data_Akumulasi) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+# Tambahkan fungsi scroll box agar tabel bisa di-scroll
+scrollable_table <- kable_output %>%
+  scroll_box(width = "100%%", height = "500px")
+
+# Tampilkan tabel
+scrollable_table
+```
+
+Kemudian data tersebut ditransformasikan ke bentuk logaritma dengan penambahan konstanta +1 untuk menghidari kesalahan logaritma pada nilai nol (misalnya pada saat volume ekspor atau harga minyak bernilai nol). Tranformasi ini bertujuan untuk melihat perubahan relatif dan hubungan proporsional antar variabel serta mengatasi masalah distribusi yang tidak normal. Selanjutnya variabel independen ditambahkan "Lag" untuk mengurangi autokorelasi pada model. Data panel kemudian dibuat dalam model Prais-Wisten, sebab penggunaan model adalah untuk mengatasi autokorelasi dengan mendekatkan model ke transformasi yang sesuai.  
+
+```{r echo=FALSE}
+# Membaca data panel dari file Excel
+data_panel <- read_excel("Data Akumulasi.xlsx", sheet = "Akumulasi", col_names = TRUE)
+
+# Mengubah data menjadi panel
+data_panel <- pdata.frame(data_panel, index = c("Negara", "Tahun"))
+
+# Buat salinan data agar data asli tetap aman
+data_log <- data_panel
+
+# Transformasi log dengan konstanta +1 untuk menghindari log(0)
+data_log$log_VolumeEkspor <- log(data_log$`Volume.Ekspor.Emas..per.tons.` + 1)
+data_log$log_HargaEmas <- log(data_log$`Harga.Emas.Global..USD.per.ounce.` + 1)
+data_log$log_HargaMinyak <- log(data_log$`Harga.Minyak.Dunia..USD.per.barrel.` + 1)
+data_log$log_GDP <- log(data_log$`GDP.per.kapita` + 1)
+data_log$log_NilaiTukar <- log(data_log$`Nilai.Tukar` + 1)
+data_log$log_Inflasi <- log(data_log$`Tingkat.Inflasi` + 1)
+
+# Menambahkan lag pada variabel independen untuk mencoba mengurangi autokorelasi
+data_log$log_HargaMinyak_lag <- lag(data_log$log_HargaMinyak, 1)
+data_log$log_HargaEmas_lag <- lag(data_log$log_HargaEmas, 1)
+data_log$log_GDP_lag <- lag(data_log$log_GDP, 1)
+data_log$log_NilaiTukar_lag <- lag(data_log$log_NilaiTukar, 1)
+data_log$log_Inflasi_lag <- lag(data_log$log_Inflasi, 1)
+
+# Model Prais-Winsten dengan lag pada variabel independen
+prais_model_lag <- plm(log_VolumeEkspor ~ log_HargaMinyak_lag + log_HargaEmas_lag + 
+                       log_GDP_lag + log_NilaiTukar_lag + log_Inflasi_lag, 
+                       data = data_log, 
+                       model = "within",  
+                       effect = "individual", 
+                       transformation = "prais")
+```
+
+```{r}
+# Ringkasan hasil dalam format data frame
+hasil_ringkas <- tidy(prais_model_lag)
+
+# Menampilkan hanya beberapa baris pertama
+head(hasil_ringkas, 5)
+
+```
+
+Dengan demikian, analisis menggunakan model ini memungkinkan untuk memahami lebih baik bagaimana faktor-faktor makroekonomi (seperti harga minyak, harga emas, dan inflasi) memengaruhi volume ekspor emas Indonesia, sekaligus mengatasi masalah-masalah yang sering muncul dalam data panel.
 
 ### Analisis masalah
 
 Hasil regresinya adalah
 
 ```{r}
-reg<-lm(hwy~cty,data=mpg)
-summary(reg)
+# Menampilkan ringkasan model
+summary(prais_model_lag)
+
+# Menghitung residual dan memeriksa autokorelasi
+residuals_prais_lag <- residuals(prais_model_lag)
+acf(residuals_prais_lag)  # Autocorrelation Function
+
+plot(residuals_prais_lag, main = "Residuals from Prais-Winsten Model", 
+     ylab = "Residuals", xlab = "Index")
+
+dummy_residuals <- rnorm(100)  # 100 residuals acak
+plot(dummy_residuals, 
+     main = "Residuals from Dummy Data", 
+     ylab = "Residuals", 
+     xlab = "Index")
+abline(h = 0, col = "red", lwd = 2)
+fit <- lm(dummy_residuals ~ seq_along(dummy_residuals))
+abline(fit, col = "blue", lwd = 2, lty = 2)
+
+# Tampilkan hasil regresi dalam bentuk tabel
+stargazer(prais_model_lag, type = "text",
+          title = "Prais-Winsten Model Results",
+          align = TRUE, 
+          digits = 3,
+          out = "prais_model_results.txt")  # Simpan sebagai file .txt (opsional)
 ```
-
-Dapat dilihat dari tabel di atas bahwa ini bukan regresi AR(1). wkkwkwkwk.
-
-
+```{r}
+check_autocorrelation(prais_model_lag)
+```
+```{r}
+check_heteroskedasticity(prais_model_lag)
+```
+```{r}
+pcdtest(prais_model_lag)
+```
 
 ## Kesimpulan
 
-Bagian ini berisi jawaban dari permasalahan dan tujuan yang diajukan pada laporan, yang diperoleh dari hasil pembahasan dan usulan perbaikan. Saran merupakan tindak lanjut dari kesimpulan, berupa anjuran atau rekomendasi yang disampaikan secara ringkas dan dapat diimplementasikan
+Hasil penelitian variabel harga minyak berarti jika terjadi kenaikan 1% harga minyak dunia kemungkinan akan meningkatkan biaya produksi dan transportasi, sehingga mengurangi volume ekspor emas sebesar 3,06%. Hasil ini signifikan pada tingkat 1% dengan tingkat kepercayaan tinggi.Pengaruh harga minyak pun langsung dan signifikan secara statistik. Selanjutnya, variabel harga emas global positif, itu artinya jika terjadi kenaikan 1% pada harga emas global dapat meningkatkan 2,17% volume ekspor emas Indonesia, tetapi hasil ini tidak signifikan. Variabel GDP per kapita, menghasilkan koefisien positif, tetapi tidak signifikan karena hanya meningkatkan 3,73% volume ekspor emas. Nilai tukar menunjukan hubungan positif, dimana kenaikan nilai tukar 1% berkontribusi pada peningkatan ekspor sebesar 1,06%. Sayangnya, signifikansinya rendah. Sama dengan inflasi, menghasilkan koefisien positif tetapi dampak kecil dan tidak signifikan. 
+
+Hasil dari R-squared 0.122, yang berarti model hanya mampu menjelaskan sekitar 12,2% variasi dalam volume ekspor emas. Dengan kata lain sebagian besar variasi dipengaruhi oleh faktor lain yang tidak dimasukkan ke dalam model. P-value dan F-statistik juga tidak signifikan pada tingkat 5% tetapi hanya mendekati, dan hubungannya pun masih lemah. 
 
 ## Referensi
 
-Gupta, K., Choirinnida, I. T., & Taufik, M. (2022). Global value chain impact for Indonesia economy and the way to make it more resilient. In Indonesia Post-Pandemic Outlook: Rethinking Health and Economics Post-COVID-19. BRIN Publishing.
+Arifin, Yaenal. 2018. “Pengaruh Harga Minyak Dunia, Nilai Tukar Dan Inflasi Terhadap Pertumbuhan Ekonomi Indonesia.” Economics Development Analysis Journal 5(4):474–83. doi: 10.15294/edaj.v5i4.22184.
 
-Media, K. C. (2022, December 24). Ekspor Bauksit Distop, Pembangunan 12 Smelter Ditarget Rampung Juni 2023. KOMPAS.com. https://money.kompas.com/read/2022/12/24/110000926/ekspor-bauksit-distop-pembangunan-12-smelter-ditarget-rampung-juni-2023
+Candra Gumilang, Reshinta, and R. Rustam Hidayat. 2014. “Pengaruh Variabel Makro Ekonomi, Harga Emas Dan Harga Minyak Dunia Terhadap Indeks Harga Saham Gabungan (Studi Pad Bursa Efek Indonesia Periode 2009-2013).” Jurnal Administrasi Bisnis S1 Universitas Brawijaya 14.
 
-Sjahrir, B. S., Kis-Katos, K., & Schulze, G. G. (2014). Administrative Overspending in Indonesian Districts: The Role of Local Politics. World Development, 59, 166--183. https://doi.org/10.1016/j.worlddev.2014.01.008
+Indonesia Investments. 2024. “Minyak Bumi.”
 
-Referensi ini dibuat dengan Zotero. Di penelitian aslinya, anda harus masukan referensi yang anda gunakan ketika mulai menulis.
+Latif, Farradina, Nurma Tambunan, and Rossi Dwika Heryani. 2023. “Kenaikan Harga Minyak Dunia Dan Implikasinya Terhadap Perekonomian Indonesia Di Masa Pandemi Covid-19.” SINOMIKA Journal: Publikasi Ilmiah Bidang Ekonomi Dan Akuntansi 1(5):1121–26. doi: 10.54443/sinomika.v1i5.585.
+
+Putro, Adi. 2021. “Apakah Keterkaitan Harga Emas dan Minyak Dunia Hanya Mitos Belaka?” Pluang.
+
+Safitri, Anggun Mai, Khairil Anwar, and Tarmizi Abbas. 2022. “Pengaruh Harga Minyak Dunia, Inflasi dan Ekspor Netto Terhadap Pertumbuhan Ekonomi di Indonesia.” Jurnal Ekonomi Regional Unimal 5(1):21. doi: 10.29103/jeru.v5i1.7917.
